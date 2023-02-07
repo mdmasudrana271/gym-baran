@@ -4,10 +4,10 @@ const HealthyInside = () => {
   return (
     <Container>
       <div className="grid md:grid-cols-12 gap-5 font-poppins leading-6">
-        <h2 className="md:col-span-5 text-2xl lg:text-5xl sporting-bold">
+        <h2 className="md:col-span-5 text-2xl lg:text-5xl sporting-bold text-gray-800">
           Healthy in side fresh out side
         </h2>
-        <p className="opacity-50 md:col-span-6 ">
+        <p className="opacity-50 md:col-span-6 text-gray-500">
           Exercise is a very important need for our body. Health and fitness
           will be obtained if you can do regular exercise and run a healthy
           routine. Even at home we still have to be diligent in exercising,

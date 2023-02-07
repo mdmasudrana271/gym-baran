@@ -40,11 +40,11 @@ const HeroSection = () => {
           {/* Brands */}
           <div className="mt-10">
             <p className="font-normal ">Brands:</p>
-            <Image src={brands} />
+            <Image src={brands} alt="" />
           </div>
         </div>
         {/* Right Contnets */}
-        <Image src={bannerImg} className="mt-5 md:mt-0" />
+        <Image src={bannerImg} className="mt-5 md:mt-0" alt="" />
       </div>
     </Container>
   );

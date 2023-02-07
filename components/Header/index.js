@@ -24,7 +24,7 @@ const Header = () => {
           <ul
             className={`${
               isOpen ? "flex" : "hidden"
-            } lg:flex flex-col lg:flex-row absolute lg:static left-0 py-10 lg:py-0 -mt-5 lg:mt-0 z-10 top-28 w-full lg:w-auto bg-white lg:bg-transparent items-center gap-11 font-poppins`}
+            } lg:flex flex-col lg:flex-row absolute lg:static left-0 py-10 lg:py-0 -mt-5 lg:mt-0 z-10 top-28 w-full lg:w-auto bg-white lg:bg-transparent items-center gap-11 font-poppins  text-black`}
           >
             <li>
               <a href="#">Home</a>
@@ -49,7 +49,7 @@ const Header = () => {
           </ul>
           {/* Mobile nav */}
           <div className="ml-auto block lg:hidden cursor-pointer">
-            <RxHamburgerMenu size={28} onClick={() => setIsOpen(!isOpen)} />
+            <RxHamburgerMenu className="text-black" size={28} onClick={() => setIsOpen(!isOpen)} />
           </div>
         </div>
       </Container>
