@@ -27,7 +27,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className='bg-white'>
+      <main>
         <Header />
         <Stacks>
           <HeroSection />
